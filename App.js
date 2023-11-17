@@ -1,5 +1,5 @@
 import {createRoot} from "react-dom/client"
-import Main from "./src/components/Main.jsx"
+import Header from "./src/components/Header.jsx"
 const App = () => {
 
     return (
@@ -7,7 +7,7 @@ const App = () => {
         <h1>
             This is React.
         </h1>
-            <Main/>
+            <Header/>
         </div>
     )
 }
